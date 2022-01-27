@@ -2,8 +2,9 @@ const colors=require("tailwindcss/colors")
 
 module.exports = {
   mode:"jit",
-  //pargeと同じ？
-  content: [
+ 
+  purge: [
+    './public/**/*.html',
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
   ],
