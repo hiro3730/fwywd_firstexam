@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header } from "../components/Header.jsx";
+import { Header } from "../components/Header/Header.jsx";
 
 
 

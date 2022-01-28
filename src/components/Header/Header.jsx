@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from 'next/link';
-import logoimg from "../../public/logo.png";
+import logoImg from '../../../public/logo.png'
+import heroImg from '../../../public/hero.png'
+
 
 const ITEMS=[
   {link:"#about",title:"ABOUT"},
@@ -12,11 +14,11 @@ const ITEMS=[
 
 export const Header=()=> {
   return (
-    <header className='container mx-auto'>
-        <div className='flex flex-row justify-between items-center'>
+    <header>
+        <div className='container mx-auto flex flex-row justify-between items-center'>
           <Link href="">
             <a>
-              <Image src={logoimg} width={360} height={180}   alt='logo' placeholder="blur" />
+              <Image src={logoImg} width={360} height={180}   alt='logo' placeholder="blur" />
             </a>
           </Link>
           <nav>
@@ -31,8 +33,16 @@ export const Header=()=> {
             </ul>
           </nav>
         </div>
-  
+        <div id="hero" className="grid grid-cols-2 gap-96    bg-bg-green bg-center">
+          <ul className="grid grid-lows-2 place-content-center  "  >
+            <li className=" text-white text-4xl tracking-widest" >メインタイトル</li>
+            <li className=" text-white" >サブタイトル</li>
+          </ul>
+          <Image src={heroImg}  alt="hero" className="col-start-3 object-center" />
+
+        </div>
     </header>
+
     
        
   );
