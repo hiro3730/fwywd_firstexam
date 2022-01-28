@@ -8,7 +8,7 @@ const Home=()=> {
     <html lang='ja'>
       <Head>
         <meta charSet=" utf-8"/>
-        <title>fwywd</title>
+        <title>test</title>
       </Head>
 
       <body>
