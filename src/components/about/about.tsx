@@ -1,4 +1,3 @@
-import { SectionTitle } from "../SectionTitle/index";
 import Image from "next/image";
 import about_1 from "../../../public/about-1.png";
 import about_2 from "../../../public/about-2.png";
@@ -7,8 +6,9 @@ import about_3 from "../../../public/about-3.png"
 export const About=()=>{
     return(
         <section id="About" className=" pt-10 pb-20 bg-bg-about-pc bg-center bg-no-repeat bg-cover ">
-
-            <SectionTitle title="私について" lead="ABOUT" position="center" className=" justify-center"/>
+            <div className="flex items-baseline justify-center">
+                <h1 className=" text-text-black tracking-wide text-2xl font-bold">私について</h1><span className=" ml-4 font-semibold text-text-green">ABOUT</span>
+            </div>
             <div className=" w-5/6 my-7 flex mx-auto px-[100px] ">
                 <div className=" mx-6">
                     <div className=" w-9/12 mx-auto px-6"><Image className=" mx-auto" src={about_1} width={160} height={130} alt="aboutimg" placeholder="blur"/></div>

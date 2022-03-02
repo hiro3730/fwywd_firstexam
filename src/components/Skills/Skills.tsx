@@ -1,4 +1,3 @@
-import { SectionTitle } from "../SectionTitle/index";
 import Image from "next/image";
 import skillimg from "../../../public/skill.png"
 import bgskill from "../../../public/bg-skills.png"
@@ -9,7 +8,9 @@ export const Skills=()=>{
             <div className=" px-[210px] flex justify-center content-center  ">
                 <div className=" basis-5/12 pt-6  mr-2 "><Image src={skillimg}/></div>
                 <div className=" basis-7/12  ml-2 ">
-                    <SectionTitle title="スキル" lead="SKILLS" position="start" />
+                    <div className="flex items-baseline justify-start">
+                        <h1 className=" text-text-black tracking-wide text-2xl font-bold">スキル</h1><span className=" ml-4 font-semibold text-text-green">SKILLS</span>
+                    </div>
                     <p className=" text-sm mt-2">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                     <div className=" scale-y-90 bg-white px-9 pt-3 pb-5">
                         <div className="pt-1">
