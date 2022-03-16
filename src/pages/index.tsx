@@ -12,7 +12,8 @@ const Home=()=> {
       <Head>
         <meta charSet=" utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-        <title>test</title>
+        <link rel="icon" href="/favicon.ico" />
+        <title>一次課題</title>
       </Head>
 
       <body>
