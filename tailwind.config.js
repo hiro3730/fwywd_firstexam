@@ -22,6 +22,8 @@ module.exports = {
         "bg-about-pc":"url('/bg-about.png')",
         "bg-skill-pc":"url('/bg-skills.png')",
         "bg-future-pc":"url('/bg-future.png')",
+        "bg-skills-sp":"url('/bg-skills-sp.png')",
+        "bg-future-sp":"url('/bg-future-sp.png')",
 
 
       }),

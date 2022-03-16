@@ -7,7 +7,10 @@ export const Footer=()=>{
     return(
         <div className=" bg-bg-black relative ">
             <p className=" py-5 align-middle text-center text-sm font-light text-white">CREATED BY  　　 <span className=" text-lg font-medium">名前 太郎</span></p>
-            <p className=" text-center"><Image src={footerlogo} width={130} height={150}/></p>
+            <a href="#Header">
+                <p className=" text-center"><Image src={footerlogo} width={130} height={150}/></p>
+            </a>
+
             <div className=" my-7 flex justify-center">
                 <p className=" mr-2"><Image src={twitterlogo} width={20} height={20} /></p>
                 <p className=" ml-2"><Image src={facebooklogo} width={20} height={20} /></p>
